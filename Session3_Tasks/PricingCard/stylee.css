@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f4f6fb;
+}
+.card{
+    width: 25%;
+    border: 2px solid #dde3f0;
+    text-align: center;
+    margin:3% auto;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    
+}
+.cardPrice{
+    background-color: #2b50aa;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #c7d4f5;
+    padding: 3%;
+}
+.cardPrice h1{
+    font-size: 65px;
+    color: #ffffff;
+    padding-top: 2%;
+}
+.cardPrice h3{
+    padding-bottom: 1%;
+    padding-top: 4%;
+    font-size: 20px;
+}
+.cardPrice p{
+    padding-bottom: 3%;
+}
+
+.cardProjects {
+    border-bottom: 2px solid #eeeeee;
+    padding-top: 6%;
+    padding-bottom: 4%;
+    font-size: 20px;
+}
+.cardStorage , .cardSupport{
+    border-bottom: 2px solid #eeeeee;
+    padding: 4%;
+    font-size: 20px;
+}
+
+.button{
+    padding: 8% 9%;
+}
+.cardbtn{
+    background-color:#f5a524;
+    color: #222222;
+    padding: 5%;
+    width: 100%;
+    border-radius:30px ;
+    border: none;
+    font-size: 20px;
+}
