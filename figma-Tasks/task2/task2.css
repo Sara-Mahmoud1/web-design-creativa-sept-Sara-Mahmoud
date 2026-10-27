@@ -1,0 +1,289 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flexDirection {
+  flex-direction: column;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  width: 100%;
+  display: block;
+}
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 34px;
+  color: #2b2b2b;
+  margin-bottom: 4%;
+}
+h3 a {
+  color: #285e67;
+}
+li a {
+  color: #2b2b2b;
+  font-size: 14px;
+}
+
+/* custom style */
+
+header {
+  padding: 2% 0;
+}
+nav ul {
+  gap: 30px;
+}
+
+.btn1 {
+  background-color: #285e67;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 1% 4%;
+  border-radius: 42px;
+  display: inline-block;
+}
+.btn2 {
+  border: 1px white solid;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 1% 4%;
+  border-radius: 42px;
+  display: inline-block;
+}
+.btn1:hover {
+  background-color: #1b434a;
+}
+.btn2:hover {
+  background-color: white;
+  color: #285e67;
+}
+
+.sec1 {
+  text-align: center;
+  padding: 5% 0 4%;
+}
+.sec1 h1 {
+  font-size: 48px;
+  color: #2b2b2b;
+}
+.sec1 p {
+  margin: 1% 0 2%;
+}
+
+.images img {
+  width: 48.5%;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.box {
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  margin: 7% 0;
+  padding: 4% 7%;
+}
+.boxContent {
+  width: 55%;
+}
+.feature {
+  width: 45%;
+}
+.iconBox {
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: #285e67;
+  color: white;
+  margin-bottom: 8%;
+}
+.peach {
+  background-color: #ebb9a5;
+}
+.boxImg {
+  width: 25%;
+}
+.eatImg {
+  width: 28%;
+}
+
+.produceImg {
+  width: 48%;
+  height: 460px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.produceContent {
+  width: 48%;
+}
+.mainText {
+  margin-bottom: 6%;
+}
+.item {
+  margin-bottom: 5%;
+}
+.item p {
+  width: 85%;
+}
+.circle {
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #285e67;
+  border-radius: 50%;
+  color: #285e67;
+  font-size: 20px;
+}
+
+.ctaSection {
+  margin-bottom: 5%;
+}
+.cta {
+  background-image: url(../../images/forest.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  color: white;
+  text-align: center;
+  padding: 5% 20% 14%;
+  position: relative;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.303);
+}
+.ctaIcon {
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 1.2% 1.8%;
+  font-size: 24px;
+  margin-bottom: 2%;
+}
+.cta h2 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 1%;
+}
+.cta p {
+  margin-bottom: 3%;
+}
+
+.plantBox {
+  width: 85%;
+  margin: -9% auto 0;
+  position: relative;
+  background-color: #fce1d6;
+  border-radius: 12px;
+  padding: 5% 3% 8%;
+}
+.plantItem {
+  width: 20%;
+  text-align: center;
+}
+.plantItem .circle {
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 8%;
+}
+.plantItem p {
+  font-size: 16px;
+}
+
+footer {
+  background-color: #285e67;
+  padding: 4% 0;
+}
+.footerContent {
+  width: 85%;
+  margin: auto;
+  align-items: flex-start;
+}
+footer h3 a,
+footer li a {
+  color: white;
+}
+footer ul {
+  gap: 30px;
+}
+.socialIcons {
+  gap: 15px;
+  margin-top: 25%;
+}
+.socialIcons a {
+  color: white;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .sec1 h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .images img,
+  .produceImg,
+  .produceContent,
+  .boxContent,
+  .feature {
+    width: 100%;
+  }
+  .images img,
+  .produceImg {
+    margin-bottom: 5%;
+  }
+  .boxImg,
+  .eatImg {
+    width: 60%;
+    margin: 5% auto 0;
+  }
+  .eat .boxContent {
+    order: -1;
+  }
+  nav ul {
+    gap: 12px;
+  }
+  .cta {
+    padding: 8% 5% 20%;
+  }
+  .plantItem {
+    width: 45%;
+    margin-bottom: 5%;
+  }
+  .plantBox {
+    padding: 8% 3% 5%;
+  }
+}

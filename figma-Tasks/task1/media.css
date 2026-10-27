@@ -1,0 +1,233 @@
+@media (max-width: 500px) {
+  #bg-img {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .display-none {
+    display: none;
+  }
+  .divContent {
+    width: 100%;
+    padding: 25% 0;
+  }
+  .divContent h1 {
+    font-size: 30px;
+  }
+
+  .header {
+    font-size: 22px;
+  }
+  .product {
+    margin: 0 0 4%;
+  }
+  .featured h1 {
+    font-size: 20px;
+  }
+  
+  .links ul {
+    gap: 37px;
+  }
+
+  .links a {
+    font-size: 14px;
+  }
+  .images {
+    gap: 30px;
+  }
+  .card {
+    width: 100%;
+  }
+  .btn3 {
+    margin-left: 55%;
+  }
+
+  .p2 {
+    flex-wrap: wrap;
+  }
+  .imgs {
+    width: 100%;
+  }
+  .imgs .card img {
+    height: 150px;
+  }
+  .card.c5 {
+    width: 100%;
+  }
+  .card.c5 img {
+    height: 200px;
+  }
+  .word {
+    font-size: 18px;
+  }
+  .over3 h1 {
+    font-size: 18px;
+  }
+  .over3 p {
+    display: none;
+  }
+  .center {
+    padding: 13% 0;
+  }
+
+  .paragraph {
+    width: 100%;
+    font-size: 14px;
+  }
+  .catImg {
+    display: none;
+  }
+
+  .team {
+    gap: 4%;
+    margin: 0;
+    justify-content: space-between;
+  }
+  .Tcard {
+    width: 47%;
+  }
+  .tImg {
+    width: 100%;
+    height: 200px;
+  }
+  .Tcard h2 {
+    font-size: 14px;
+    padding: 8% 0 4%;
+  }
+  .Tcard p {
+    font-size: 12px;
+    padding-bottom: 8%;
+  }
+
+  .blog {
+    flex-direction: column;
+  }
+  .blogContent {
+    width: 100%;
+  }
+  .bp h1 {
+    font-size: 20px;
+  }
+  .blogContent p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .read {
+    width: 40%;
+  }
+  video {
+    display: none;
+  }
+
+  .head {
+    font-size: 22px;
+  }
+  .div1 {
+    gap: 30px;
+    padding: 4% 0;
+  }
+  .contentForm {
+    width: 100%;
+  }
+  .form {
+    margin: 0;
+    padding: 5%;
+  }
+  .row {
+    gap: 0;
+    justify-content: space-between;
+  }
+  .row .input {
+    width: 48%;
+  }
+  .input label {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .input input,
+  textarea {
+    font-size: 14px;
+  }
+  .agree {
+    font-size: 12px;
+  }
+  .contact {
+    width: 100%;
+    padding: 0;
+    gap: 30px 0;
+    justify-content: space-between;
+  }
+  .info {
+    width: 45%;
+    gap: 10px;
+  }
+  .info h3 {
+    font-size: 16px;
+  }
+  .info h4 {
+    font-size: 12px;
+  }
+  .info p {
+    font-size: 12px;
+  }
+
+ 
+  .div2 {
+    padding: 6% 0 4%;
+  }
+  .newsletter {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .newsText p {
+    font-size: 14px;
+  }
+  .newsForm {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5%;
+  }
+  .newsForm input,
+  .newsForm button {
+    flex: none;
+    width: 100%;
+    padding: 4%;
+  }
+  .footerLinks {
+    padding: 8% 0 2%;
+  }
+  .brand {
+    width: 100%;
+    margin-bottom: 8%;
+  }
+  .brand p {
+    width: 100%;
+    margin-top: 3%;
+  }
+  .col {
+    width: 48%;
+    margin-bottom: 8%;
+  }
+  .col h4 {
+    margin-bottom: 6%;
+  }
+  .col li {
+    margin-bottom: 6%;
+  }
+  .copyRight {
+    flex-direction: column;
+    padding: 5% 0;
+  }
+  .copyRight p {
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .socialIcons {
+    width: 70%;
+  }
+  .socialIcons i {
+    font-size: 20px;
+  }
+}
