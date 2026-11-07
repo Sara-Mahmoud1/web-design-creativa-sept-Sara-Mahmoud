@@ -1,0 +1,13 @@
+.bg-img{
+  
+    background-image: url("../images/garden.png");
+    background-size: 100% 100%;
+
+}
+.overlay{
+    background-color: rgba(10, 16, 11, 0.271);
+}
+.size{
+    font-size: 138px;
+}
+
